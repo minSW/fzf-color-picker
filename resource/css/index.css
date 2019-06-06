@@ -1,0 +1,40 @@
+body { background-color:#fafafa;}
+
+dl {
+  margin: 20px 0;
+}
+dt {
+  font-size: 120%;
+}
+dd {
+  padding: 10px 20px 20px 20px;
+}
+dd:last-child {
+  border-bottom: none;
+}
+code {
+  color: black;
+  border: none;
+  background: rgba(128, 128, 128, .1);
+}
+pre {
+  background: #f8f8f8;
+  border: none;
+  color: #333;
+  padding: 20px;
+}
+h2 {
+  margin-top: 50px;
+}
+h3 {
+  color: #aaa;
+}
+.jumbotron {
+  padding: 20px;
+}
+.jumbotron h1 {
+  margin-top: 0;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}

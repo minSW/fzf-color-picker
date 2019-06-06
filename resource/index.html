@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery MiniColors</title>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- MiniColors -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.3.4/jquery.minicolors.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.3.4/jquery.minicolors.min.css" />
+  
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      updateCode();
+
+      $('.demo').each(function() {
+        $(this).minicolors({
+          theme: 'bootstrap'
+        });
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="container" style="margin: 30px auto;">
+    <div class="col-12">
+      <!-- Intro -->
+      <div id="intro" class="jumbotron">
+        <h2>'fzf' jQuery MiniColors example</h2>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class= "col-lg-8 col-sm-8 col-12">
+          <h3>Preview</h3>
+          <div class="preview well">
+            Example code
+          </div>
+
+          <h3>Generated Code</h3>
+          <div class="code well">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-4 col-12">
+            <!-- Control types -->
+            <h3>Color Pallete</h3>
+            <div class="palette well">
+              <div class="row">
+                  <div class="col-lg-6 col-sm-6 col-6">
+                      <div class="form-group">
+                          <label for="label-fg">fg</label>
+                          <input type="text" id="fg" class="form-control demo" data-control="hue" value="#ffffff">
+                      </div>
+                      <div class="form-group">
+                          <label for="label-bg">bg</label>
+                          <input type="text" id="bg" class="form-control demo" data-control="hue" value="#ffffff">
+                      </div>
+                      <div class="form-group">
+                          <label for="label-hl">hl</label>
+                          <input type="text" id="hl" class="form-control demo" data-control="hue" value="#ffffff">
+                      </div>
+                      <div class="form-group">
+                        <label for="label-info">info</label>
+                        <input type="text" id="info" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-prompt">prompt</label>
+                        <input type="text" id="prompt" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-pointer">pointer</label>
+                        <input type="text" id="pointer" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6 col-6">
+                    <div class="form-group">
+                        <label for="label-fg+">fg+</label>
+                        <input type="text" id="fgp" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-bg+">bg+</label>
+                        <input type="text" id="bgp" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-hl+">hl+</label>
+                        <input type="text" id="hlp" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                      <label for="label-marker">marker</label>
+                      <input type="text" id="marker" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-spinner">spinner</label>
+                        <input type="text" id="spinner" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                    <div class="form-group">
+                        <label for="label-header">header</label>
+                        <input type="text" id="header" class="form-control demo" data-control="hue" value="#ffffff">
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
