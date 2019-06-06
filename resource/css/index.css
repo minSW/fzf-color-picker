@@ -1,4 +1,16 @@
-body { background-color:#fafafa;}
+body { background-color:#fafafa;
+  touch-action: none;
+}
+
+.view-block {
+  /* background: #cccccc; */
+  padding: 20px;
+  line-height: 121%;
+}
+
+.plus {
+  font-weight: bold;
+}
 
 dl {
   margin: 20px 0;
