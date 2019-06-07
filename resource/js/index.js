@@ -4,10 +4,10 @@ $(function() {
        updateView();
   });
 });
-    
+
 function updateCode() {
   $('.code').text("export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'"
-                  +"\n--color=fg:" + $('#fg').val() + ",bg:" + $('#bg').val() + ",hl:" + $('#hl').val()
+                  +"\n--color=fg:" + getColorText($('#fg')) + ",bg:" + getColorText($('#bg')) + ",hl:" + $('#hl').val()
                   +",fg+:" + $('#fgp').val() + ",bg+:" + $('#bgp').val() + ",hl+:" + $('#hlp').val()
                   +"\n--color=info:" + $('#info').val() + ",prompt:" + $('#prompt').val() + ",pointer:" + $('#pointer').val()
                   +",marker:" + $('#marker').val() + ",spinner:" + $('#spinner').val() + ",header:" + $('#header').val()
@@ -17,9 +17,10 @@ function updateCode() {
 };
 
 function updateView() {
-  $(".fg").css("color", $('#fg').val());
+  updateColorView($(".fg"), "color", $('#fg').val());
+  updateColorView($(".bg"), "background-color", $('#bg').val());
+
   $(".fgp").css("color", $('#fgp').val());
-  $(".bg").css("background-color", $('#bg').val());
   $(".bgp").css("background-color", $('#bgp').val());
   $(".hl").css("color", $('#hl').val());
   $(".hlp").css("color", $('#hlp').val());
@@ -29,4 +30,17 @@ function updateView() {
   $(".mar").css("color", $('#marker').val());
   $(".spi").css("color", $('#spinner').val());
   $(".hea").css("color", $('#header').val());
+}
+
+function getColorText(ele) {
+  if (ele.val()) {
+    return ele.val();
+  }
+  return -1;
+}
+
+function updateColorView(ele, styleType, val) {
+  if (val) {
+    ele.css(styleType, val);
+  }
 }
