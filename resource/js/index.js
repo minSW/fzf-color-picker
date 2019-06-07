@@ -14,7 +14,6 @@ function updateCode() {
                   +"\n'");
   $('.code').html($('.code').html().replace(/\n/g,'<br/>'));
   
-  //export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 };
 
 function updateView() {
