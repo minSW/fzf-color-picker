@@ -1,11 +1,11 @@
 /* Popover color */
 .popover {
-  color: #fff;
-  background-color: #000;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 .popover.top>.arrow:after {
-  border-top-color: #000;
+  border-top-color: #000000;
 }
 
 
@@ -25,7 +25,7 @@
 
 .btn-0 {
   text-align: center;
-  color: #fff;
+  color: #FFFFFF;
   border: none;
   position: relative;
   height: 40px;
@@ -79,8 +79,8 @@
 }
 
 .btn-green:active {
-  background: #edfff2;
-  color: #88c99b;
+  background: #EDFFF2;
+  color: #88C99B;
 }
 
 .btn-dark {
@@ -97,7 +97,7 @@
 }
 
 .btn-dark:active {
-  background: #ffe5f0;
+  background: #FFE5F0;
   color: #F60069;
 }
 
@@ -150,6 +150,6 @@ button[class*="btn-mini"] {
 }
 
 .btn-mini.dark:active {
-  box-shadow: 0 0 #3f3f3f;
+  box-shadow: 0 0 #3F3F3F;
   background-color: #424242;
 }
