@@ -49,6 +49,22 @@ h3 {
   margin: 12px 0px 0px 12px;
 }
 
+.explain {
+  font-size: 50%;
+  font-weight: 400;
+  padding: 0 0 0 10px;
+  color: #999999;
+}
+a.fzf-link {
+  color: #74C28A;
+}
+a.fzf-link:hover {
+  color: #FF75AF;
+}
+a.fzf-link:active{
+  color: #FFE5F0;
+}
+
 a.git-link {
   font-size: 120%;
   color: #AEE2BC;

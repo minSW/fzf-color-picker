@@ -1,0 +1,70 @@
+/* Popover color */
+.popover {
+  color: #FFFFFF;
+  background-color: #F60069;
+}
+
+.popover.right > .arrow:after {
+  border-right-color: #F60069;
+  
+}
+
+.set-btns {
+  float: initial;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.btn-mini {
+  position: relative;
+  border: 0;
+  padding: 15px 25px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.btn-mini:active {
+  top: 4px;
+}
+
+.btn-mini:focus {
+  outline: 0;
+}
+
+a[class*="btn-mini"] {
+  text-decoration: none;
+}
+
+input[class*="btn-mini"],
+button[class*="btn-mini"] {
+  border: 0;
+}
+
+.btn-mini {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.btn-mini.dark {
+  background-color: #666666;
+  box-shadow: 0px 4px #3F3F3F;
+}
+
+.btn-mini.dark:active {
+  box-shadow: 0 0 #3F3F3F;
+  background-color: #424242;
+}
+
+.btn-mini.pink {
+  background-color: #FF75AF;
+  box-shadow: 0px 4px #F60069;
+}
+
+.btn-mini.pink:active {
+  box-shadow: 0 0 #F60069;
+  background-color: #FF4794;
+}

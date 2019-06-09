@@ -82,6 +82,7 @@
           <div class="set-btns">
             <button type="button" class="btn-mini dark" onclick="setDefault('#fg')">default fg</button>
             <button type="button" class="btn-mini dark" onclick="setDefault('#bg')">default bg</button>
+            <button type="button" id="copy-btn" class="btn-mini pink" onclick="copyToClipboard()" data-container="body" data-toggle="popover" data-placement="right" data-content="Copied the Code">Copy code</button>
           </div>
         </div>
       </div>
@@ -147,10 +148,12 @@
           </div>
         </div>
 
-        <!-- Apply Buttons -->
-        <div class="buttons">
-          <button id="copy-btn" type="button" class="btn-0 btn-dark" onclick="copyToClipboard()" data-container="body" data-toggle="popover" data-placement="top" data-content="Copied the Code">Copy code</button>
-          <button id="apply-btn" type="button" class="btn-0 btn-green" onclick="applyToFzf()" data-container="body" data-toggle="popover" data-placement="top" data-content="Applied Color scheme to fzf">Apply to fzf</button>
+        <div class="explain">
+          <p>
+            <span style="color:#FF75AF;">></span> This is the Web color picker to make color scheme for <a class="fzf-link" href="https://github.com/junegunn/fzf">FZF</a>.</br>
+            You can apply your custom color scheme to fzf <u>by just typing 'Generated Code' on your Zsh</u>. 
+            ( ref. <a class="fzf-link" href="https://github.com/junegunn/fzf">fzf - Color Schemes</a> )
+          </p>
         </div>
       </div>
     </div>
