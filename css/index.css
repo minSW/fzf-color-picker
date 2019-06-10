@@ -29,6 +29,8 @@ h3 {
 .view-block {
   padding: 20px;
   line-height: 121%;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .plus {
