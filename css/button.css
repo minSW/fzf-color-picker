@@ -5,8 +5,7 @@
 }
 
 .popover.right > .arrow:after {
-  border-right-color: #F60069;
-  
+  border-right-color: #F60069; 
 }
 
 .set-btns {
@@ -67,4 +66,25 @@ button[class*="btn-mini"] {
 .btn-mini.pink:active {
   box-shadow: 0 0 #F60069;
   background-color: #FF4794;
+}
+
+.btn-mini {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+@media (min-width: 1700px) {
+  .popover {
+    color: #FFFFFF;
+    background-color: #F60069;
+  }
+  
+  .popover.right > .arrow:after {
+    border-right-color: #F60069;
+  }
+
+  .btn-mini {
+    font-size: 28px;
+    border-radius: 18px;
+  }
 }
