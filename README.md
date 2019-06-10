@@ -9,7 +9,10 @@
 
 > **fzf web color picker**'s default scheme is *'molokai'*
 
-This is the web color picker to make color scheme for [FZF](https://github.com/junegunn/fzf).
+</br>
+
+This is the web color picker to make color scheme for [**fzf**](https://github.com/junegunn/fzf), *a general-purpose command-line fuzzy finder.*
+
 
 
 You can apply your custom color scheme to fzf <U>by just typing 'Generated Code' on your Zsh</U>. 
