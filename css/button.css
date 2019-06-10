@@ -73,7 +73,7 @@ button[class*="btn-mini"] {
   font-size: 12px;
 }
 
-@media (min-width: 1700px) {
+@media (min-height: 1440px) {
   .popover {
     color: #FFFFFF;
     background-color: #F60069;
@@ -84,7 +84,7 @@ button[class*="btn-mini"] {
   }
 
   .btn-mini {
-    font-size: 28px;
+    font-size: 22px;
     border-radius: 18px;
   }
 }

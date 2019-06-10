@@ -76,37 +76,40 @@ a.git-link:active{
   color: #FFE5F0;
 }
 
-@media (min-width: 1700px) {
+@media (min-height: 1440px) {
   h3 {
-    font-size: 400%;
-  }
-  h4 {
-    font-size: 250%;
-  }
-  label {
-    font-size: 250%;
-  }
-  .view-block {
     font-size: 300%;
   }
+  h4 {
+    font-size: 200%;
+  }
+  label {
+    font-size: 200%;
+  }
+  .container {
+    width: 1800px
+  }
+  .view-block {
+    font-size: 250%;
+  }
   .form-control {
-    font-size: 38px;
-    height: 60px;
+    font-size: 30px;
+    height: 48px;
   }
   .pallete {
     padding: 0 0 0 20px;
   }
   .code {
-    font-size: 200%;
-  }
-  .by {
     font-size: 150%;
   }
+  .by {
+    font-size: 100%;
+  }
   .container {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .explain {
-    font-size: 180%;
+    font-size: 140%;
     padding: 0 0 0 10px;
   }
 }
