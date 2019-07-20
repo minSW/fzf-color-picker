@@ -1,5 +1,5 @@
 # fzf Web Color Picker
-**Web Color Picker** for fzf custom color scheme
+**Web Color Picker** for fzf custom color scheme ( + *2019.07.16 added on [**fzf wiki**](https://github.com/junegunn/fzf/wiki/Color-schemes#web-color-picker-for-fzf)* ) 
 
 - Link : [https://minsw.github.io/fzf-color-picker/](https://minsw.github.io/fzf-color-picker/)
 
